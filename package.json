@@ -6,7 +6,7 @@
   "author": "Fabricio Silva",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd --ignore-watch --respawn --transpile-only src/server.ts"
+    "dev": "tsnd --poll --ignore-watch --respawn --transpile-only src/server.ts"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
